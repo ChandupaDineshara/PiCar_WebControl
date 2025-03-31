@@ -35,7 +35,7 @@
 - PHP 7.x or above
 - GPIO library for Raspberry Pi
 
-  ## Install Dependencies:
+## Install Dependencies:
 
 Make sure you have PHP and a web server installed:
 
@@ -52,6 +52,10 @@ You may also need to enable Apache to handle the PHP scripts:
 Make sure the Apache web server is running, then place the files in the server's root directory (e.g., `/var/www/html`):
 
 <pre><code>sudo cp -r * /var/www/html/</code></pre>
+
+After copying the files, restart the Apache server to apply the changes:
+
+<pre><code>sudo systemctl restart apache2</code></pre>
 
 Now, navigate to the Pi's IP address from a browser (`http://<RaspberryPi_IP>/remote.php`) to interact with the web interface.
 
