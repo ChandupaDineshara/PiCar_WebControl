@@ -1,6 +1,6 @@
-<h1 align="center">PiCar: Web-Controlled Robot</h1>
+<h1 >PiCar: Web-Controlled Robot</h1>
 
-<p align="center">
+<p>
   <img src="pi_car/IMG_20250401_014844_edit_786369379269064.jpg" alt="PiCar" width="50%" />
 </p>
 
@@ -31,6 +31,6 @@
 ### Software Requirements:
 
 - Python 3.x
-- Apache or Nginx (Web Server for PHP)
+- Apache2 (Web Server for PHP)
 - PHP 7.x or above
 - GPIO library for Raspberry Pi
